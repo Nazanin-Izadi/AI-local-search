@@ -40,6 +40,7 @@ def run_algorithms(world, initial_state, algorithm_classes):
         # best_state, best_cost, evaluations, states_history
         state, cost, evals, hist = algorithm_instance.run(initial_state)
         
+        
         best_states.append(state)
         best_costs.append(cost)
         evaluations.append(evals)
