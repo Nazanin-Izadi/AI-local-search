@@ -1,5 +1,6 @@
 from search.local_search_base import LocalSearchBase
 
+
 class HillClimbing(LocalSearchBase):
     def run(self, initial_state, max_iterations=2000):
         current_state = initial_state
